@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "email": "we@email.it",
+      "password": "$2a$10$s3JsPuSv/CgR7ASgZczpMecz26pcHeCFr3YXkfKjf70jI98MJWotK",
+      "name": "we",
+      "surname": "we",
+      "id": 1
+    },
+    {
+      "email": "email@email.it",
+      "password": "$2a$10$Xtl4PXmMEOYE80jFHjoz9e/iyGTtpjuyKjNdOCxRxKeRK8DvY6Oc.",
+      "name": "Name",
+      "surname": "Surname",
+      "id": 2
+    },
+    {
+      "email": "bruno@email.it",
+      "password": "$2a$10$WGV7l9gadUTMKBw5I3.g6Og1P2YtULbCI9wSJvWqVi32kpskgffla",
+      "name": "Bruno",
+      "surname": "Stano",
+      "id": 3
+    }
+  ]
+}
