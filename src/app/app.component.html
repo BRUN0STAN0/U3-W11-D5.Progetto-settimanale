@@ -1,4 +1,13 @@
 <div class="container">
   <app-navbar></app-navbar>
   <router-outlet></router-outlet>
+  <div class="text-center mt-5">
+    <br />
+    <br />
+    <span *ngIf="!this.authService.isLogged"> Please Signin or Signup. </span> <br />
+    <br />
+    <br />
+    Framework: Angular <br />
+    Library: Bootstrap
+  </div>
 </div>

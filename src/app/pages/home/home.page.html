@@ -1,1 +1,9 @@
-<p>home works!</p>
+<div class="d-flex flex-wrap justify-content-between">
+  <div *ngFor="let movie of movies" class="card" style="width: 18rem">
+    <img src="{{movie.Poster}}" class="card-img-top" alt="{{movie.Title}}" />
+    <div class="card-body">
+      <h5 class="card-title">{{movie.Title}}</h5>
+      <p class="card-text">{{movie.Runtime}}</p>
+    </div>
+  </div>
+</div>

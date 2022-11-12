@@ -23,7 +23,7 @@ export class AuthService {
     return this.http.post(environment.urlAPI + 'users', user);
   }
 
-  ngAfterViewInit(): void {
-    // localStorage.clear();
+  ngOnDestroy(): void {
+    localStorage.clear();
   }
 }

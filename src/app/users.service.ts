@@ -7,8 +7,6 @@ import { User } from './classes/user.class';
   providedIn: 'root',
 })
 export class UsersService {
-  private users: User[] = [];
-
   constructor(private http: HttpClient) {}
 
   getUsers() {}
