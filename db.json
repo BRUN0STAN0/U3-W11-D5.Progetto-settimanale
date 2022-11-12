@@ -41,6 +41,13 @@
       "name": "Lino",
       "surname": "Stano",
       "id": 6
+    },
+    {
+      "email": "brunostano00@protonmail.com",
+      "password": "$2a$10$UNiAB3gu5L06slpcoIximOTRDYKCFQslilwBVs6tt67XJVxG59p3G",
+      "name": "Bruno",
+      "surname": "Stano",
+      "id": 7
     }
   ],
   "movies": [
